@@ -1,0 +1,60 @@
+.post-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.post-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post-input-group {
+  margin-bottom: 15px;
+}
+
+.post-input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-input-group input[type="text"],
+.post-input-group input[type="file"],
+.post-input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.upload-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #45a049;
+}
+
+.post-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.post-button:hover {
+  background-color: #0056b3;
+}
